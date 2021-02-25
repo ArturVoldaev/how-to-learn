@@ -1,3 +1,6 @@
+div{
+  border: 1px solid red;
+}
 .page {
   min-width: 1100px;
   /* мы ещё не умеем делать мобильную версию сайта, */
@@ -15,11 +18,52 @@
   max-height: 756px;
   /* выше установили ограничения для секции */
 }
+.header__logo_header{
+  width: 183px;
+  height: 32px;
+  position: absolute;
+  left: 64px;
+  top: 30px;
+
+
+}
+
+.header__title{
+display: flex;
+width: 730px;
+margin: 64px;
+font-size: 102px;
+font-weight: bold;
+}
+.header__subtitle{
+  position: absolute;
+  width: 388px;
+  left: 64px;
+  bottom: 30px;
+}
+.header__link{
+
+}
+.header__main-illustartion{
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+  width: 765px;
+  height: 608px;
+  z-index: 1;
+
+
+}
 
 /* ниже мы привели пример двух селекторов, чтобы вы вспомнили запись элемента */
 .header__square-pic {
+  position: absolute;
+  right: 0px;
+  top: 64px;
   height: 568px;
   width: 568px;
+  background-color: #2f80ed;
+  z-index: 0;
 }
 
 /* и элемента с модификатором вида ключ-значение */
