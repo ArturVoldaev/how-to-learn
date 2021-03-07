@@ -347,7 +347,7 @@
   color: white;
 }
 .footer__column{
-  display: flex;
+  display: block;
 }
 .footer__column_content_copyright {
   display: flex;
