@@ -1,3 +1,5 @@
 .khal__book-container {
   display: flex;
+  width: 80%;
+  margin: 0px auto;
 }
