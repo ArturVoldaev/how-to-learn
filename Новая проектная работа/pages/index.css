@@ -50,7 +50,7 @@
 @import url(../blocks/table/__text/_theme/table__text_theme_white.css);
 /*khal*/
 @import url(../blocks/khal/khal.css);
-@import url(../blocks/khal/__container/khan__container.css);
+@import url(../blocks/khal/__container/khal__container.css);
 @import url(../blocks/khal/__author/khal__author.css);
 @import url(../blocks/khal/__title/khal__title.css);
 @import url(../blocks/khal/__quote/khal__quote.css);
