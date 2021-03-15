@@ -1,8 +1,0 @@
-.cards {
-  /*border: 1px solid seagreen;*/
-  margin: 0px auto;
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: row;
-  width: 920px;
-}
